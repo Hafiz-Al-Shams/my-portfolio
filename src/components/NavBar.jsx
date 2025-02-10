@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/favicon.png'
 
 
@@ -14,21 +14,11 @@ const NavBar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 text-base-content rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><NavLink to="/">
-                                Home
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Skills
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                About
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Projects
-                            </NavLink></li>
-                            <li><NavLink to="/">
-                                Contact Me
-                            </NavLink></li>
+                            <li><a href="#banner">Home</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
                             <li className=''>
                                 <details>
                                     <summary>Resume</summary>
@@ -48,26 +38,21 @@ const NavBar = () => {
                         <div className="">
                             <img src={logo} alt="" className='w-7' />
                         </div>
-                        <Link to='/'><h5 className="text-xl font-medium">hafiz.codes</h5></Link>
+                        <h5 className="text-xl font-medium"><a href="#banner">hafiz.codes</a></h5>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><NavLink to="/">
+
+                        {/* <li><NavLink to="/">
                             Home
-                        </NavLink></li>
-                        <li><NavLink to="/">
-                            Skills
-                        </NavLink></li>
-                        <li><NavLink to="/">
-                            About
-                        </NavLink></li>
-                        <li><NavLink to="/">
-                            Projects
-                        </NavLink></li>
-                        <li><NavLink to="/">
-                            Contact Me
-                        </NavLink></li>
+                        </NavLink></li> */}
+
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
 
                         <li className='pl-7'>
                             <details>

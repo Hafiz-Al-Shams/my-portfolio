@@ -1,18 +1,33 @@
+import About from "../../components/About";
 import Banner from "../../components/Banner";
+import ContactMe from "../../components/ContactMe";
+import Projects from "../../components/Projects";
+import Skills from "../../components/Skills";
 
 
 const Home = () => {
     return (
         <div>
 
-            <Banner></Banner>
+            <section id="banner">
+                <Banner />
+            </section>
 
-            {/* <div className="max-w-screen-2xl mx-auto pb-3">
+            <section id="skills">
+                <Skills />
+            </section>
 
-                <div className="bg-base-100 pt-10 rounded-xl">
-                    <h2 className="text-center text-4xl font-semibold pb-5 pt-4">my portfolio</h2>
-                </div>
-            </div> */}
+            <section id="about">
+                <About />
+            </section>
+
+            <section id="projects">
+                <Projects />
+            </section>
+
+            <section id="contact">
+                <ContactMe></ContactMe>
+            </section>
 
         </div>
     );
