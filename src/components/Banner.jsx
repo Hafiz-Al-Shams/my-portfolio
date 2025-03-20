@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-10 md:pt-20"> {/* Stack layout on mobile, side-by-side on tablets/desktops */}
                 <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left"> {/* Center align for small screens, left align for larger */}
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2> {/* Scaled font sizes for better responsiveness */}
-                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Full Stack Developer</h3> {/* Adjusted text sizes */}
+                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3> {/* Adjusted text sizes */}
 
                     <div className="mt-5 sm:mt-7">
                         <button className="btn btn-outline btn-primary btn-md md:btn-lg">Resume</button> {/* Adjusted button size for mobile */}
@@ -23,7 +23,7 @@ const Banner = () => {
                     <img
                         src={hafizImg}
                         alt="Profile"
-                        className="w-40 sm:w-56 md:w-72 lg:w-80 rounded-full border-4 border-blue-300 shadow-xl"
+                        className="w-40 sm:w-56 md:w-72 lg:w-80 rounded-full border-4 border-gray-200 shadow-xl"
 
                     // Responsive image scaling
 
