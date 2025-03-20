@@ -26,7 +26,6 @@ const Banner = () => {
                         className="w-40 sm:w-56 md:w-72 lg:w-80 rounded-full border-4 border-gray-200 shadow-xl"
 
                     // Responsive image scaling
-
                     />
                 </div>
             </div>
