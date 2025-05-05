@@ -1,15 +1,16 @@
 import { FaGithub, FaTwitter } from 'react-icons/fa';
 import hafizImg from '../assets/hafiz.png'
 import { Link } from 'react-router-dom';
-
+import { FaXTwitter } from 'react-icons/fa6';
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24'> {/* Increased max-width for large screens & added padding for smaller screens */}
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-10 md:pt-20"> {/* Stack layout on mobile, side-by-side on tablets/desktops */}
-                <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left"> {/* Center align for small screens, left align for larger */}
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2> {/* Scaled font sizes for better responsiveness */}
-                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3> {/* Adjusted text sizes */}
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24'>
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-10 md:pt-20">
+                <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2>
+                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3>
 
                     <div className="mt-5 sm:mt-7">
 
@@ -19,17 +20,50 @@ const Banner = () => {
                             rel="noopener noreferrer"
                             className=""
                         >
-                            <button className="btn btn-outline btn-primary btn-md md:btn-lg">Resume</button> {/* Adjusted button size for mobile */}
+                            <button
+                                className="
+    btn md:btn-lg
+    text-white         
+    
+    bg-[#5a0ea1]
+    border-0                            
+    transition duration-150 ease-in-out 
+    transform                           
+    hover:scale-125                    
+    hover:shadow-2xl                     
+    hover:shadow-white
+    hover:bg-[#470c7e]                 
+    hover:text-white
+  "
+                            >
+                                Resume
+                            </button>
+
                         </a>
 
 
                     </div>
-                    <div className="flex justify-center md:justify-start items-center gap-4 sm:gap-6 mt-8 sm:mt-10 text-3xl sm:text-4xl"> {/* Centered icons on mobile */}
-                        <Link to='https://github.com/Hafiz-Al-Shams'><FaGithub /></Link>
-                        <Link to='https://x.com/shams_world625'><FaTwitter /></Link>
+                    <div className="flex justify-center md:justify-start items-center gap-4 sm:gap-6 mt-8 sm:mt-10 text-3xl sm:text-4xl">
+                        <a
+                            href="https://github.com/Hafiz-Al-Shams"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="transition duration-150 ease-in-out transform hover:scale-150 hover:shadow-2xl hover:shadow-white"
+                        >
+                            <FaGithub />
+                        </a>
+                        <a
+                            href="https://x.com/shams_world625"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="transition duration-150 ease-in-out transform hover:scale-150 hover:shadow-2xl hover:shadow-white"
+                        >
+                            <FaXTwitter />
+                        </a>
                     </div>
+
                 </div>
-                <div className="mt-10 md:mt-0 transition-transform duration-300 hover:scale-110 ease-in-out"> {/* Added margin for spacing on small screens */}
+                <div className="mt-10 md:mt-0 transition-transform duration-300 hover:scale-110 ease-in-out">
                     <img
                         src={hafizImg}
                         alt="Profile"
@@ -39,7 +73,17 @@ const Banner = () => {
                     />
                 </div>
             </div>
-            <h3 className='text-2xl sm:text-4xl md:text-5xl font-semibold mt-12 sm:mt-16 text-center md:text-left'>{`I code tomorrow's Web, today`}</h3> {/* Responsive heading size and alignment */}
+            <h3 className="text-2xl sm:text-4xl md:text-5xl font-semibold mt-12 sm:mt-16 text-center md:text-left">
+                <Typewriter
+                    options={{
+                        strings: ["I code tomorrow's Web, today"],
+                        autoStart: true,
+                        loop: true,
+                        delay: 110,
+                        deleteSpeed: 25,
+                    }}
+                />
+            </h3>
         </div>
 
     );
