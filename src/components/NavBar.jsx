@@ -53,21 +53,53 @@ const NavBar = () => {
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact Me</a></li>
+                        <li>
+                            <a
+                                href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className=""
+                            >
+                                Resume
+                            </a>
+                        </li>
 
-                        <li className='pl-7'>
+
+
+
+                        {/* <li className='pl-7'>
                             <details>
                                 <summary>Resume</summary>
-                                <ul className="bg-base-100 text-base-content rounded-t-none p-2">
-                                    <li><NavLink to="/">
-                                        View
-                                    </NavLink></li>
-                                    <li><NavLink to="/">
-                                        Download
-                                    </NavLink></li>
+                                <ul className="bg-base-100 text-base-content rounded-t-none p-2 space-y-2"> */}
 
-                                </ul>
+                        {/* TODO: viewing function will be implemented */}
+                        {/* <li>
+                                        <a
+                                            href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className=""
+                                        >
+                                            <div className="">View</div>
+                                        </a>
+                                    </li> */}
+
+
+                        {/* TODO: direct download function will be implemented */}
+                        {/* <li>
+                                        <a
+                                            href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className=""
+                                        >
+                                            <div className="">Download</div>
+                                        </a>
+                                    </li> */}
+
+                        {/* </ul>
                             </details>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

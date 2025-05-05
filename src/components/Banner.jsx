@@ -12,7 +12,17 @@ const Banner = () => {
                     <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3> {/* Adjusted text sizes */}
 
                     <div className="mt-5 sm:mt-7">
-                        <button className="btn btn-outline btn-primary btn-md md:btn-lg">Resume</button> {/* Adjusted button size for mobile */}
+
+                        <a
+                            href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=""
+                        >
+                            <button className="btn btn-outline btn-primary btn-md md:btn-lg">Resume</button> {/* Adjusted button size for mobile */}
+                        </a>
+
+
                     </div>
                     <div className="flex justify-center md:justify-start items-center gap-4 sm:gap-6 mt-8 sm:mt-10 text-3xl sm:text-4xl"> {/* Centered icons on mobile */}
                         <Link to='https://github.com/Hafiz-Al-Shams'><FaGithub /></Link>
