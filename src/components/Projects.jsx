@@ -66,7 +66,7 @@ const Projects = () => {
     mt-3 md:mt-6 
     text-center
   ">
-                        <span className="whitespace-nowrap text-[#2A1454]">
+                        <span className="whitespace-nowrap">
                             <Typewriter
                                 options={{
                                     strings: [
