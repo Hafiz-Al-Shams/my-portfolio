@@ -40,7 +40,7 @@ const ContactMe = () => {
                 icon: 'success',
                 title: 'Message Sent!',
                 showConfirmButton: false,
-                timer: 2500,
+                timer: 1000,
             });
 
             // Reset the form after successful submission
@@ -63,24 +63,25 @@ const ContactMe = () => {
 
     return (
         <div className="pb-7">
-            <div className="w-11/12 sm:w-10/12 md:max-w-3xl mx-auto px-6 sm:px-10 py-8 bg-white shadow-lg rounded-lg mt-6 sm:mt-10">
+            <div className="transform hover:scale-105 hover:shadow-xl 
+      transition duration-200 ease-out w-11/12 sm:w-10/12 md:max-w-3xl mx-auto px-6 sm:px-10 py-8 bg-white shadow-lg rounded-lg mt-6 sm:mt-10">
                 <h1 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4">
                     Contact Me
                 </h1>
 
                 {/* Contact Info */}
                 <div className="mb-6">
-                    <p className="flex items-center gap-3 text-base sm:text-lg">
+                    <p className="flex items-center gap-3 text-[10px] md:text-xl">
                         <FaEnvelope className="text-blue-500" />
-                        Email: <a className="text-blue-600 underline text-xs md:text-sm lg:text-base">hafizalshams1917@gmail.com</a>
+                        Email: <a className="text-blue-600 underline text-[10px] md:text-lg ">hafizalshams1917@gmail.com</a>
                     </p>
-                    <p className="flex items-center gap-3 text-base sm:text-lg mt-2">
+                    {/* <p className="flex items-center gap-3 text-base sm:text-lg mt-2">
                         <FaPhone className="text-green-500" />
                         Phone: <a className="text-green-600 underline">+1234567890</a>
-                    </p>
-                    <p className="flex items-center gap-3 text-base sm:text-lg mt-2">
+                    </p> */}
+                    <p className="flex items-center gap-3 text-[10px] md:text-xl mt-2">
                         <FaWhatsapp className="text-green-600" />
-                        WhatsApp: <a target="_blank" rel="noopener noreferrer" className="text-green-700 underline">+1234567890</a>
+                        WhatsApp: <a target="_blank" rel="noopener noreferrer" className="text-green-700 underline text-[10px] md:text-lg">+8801581198040</a>
                     </p>
                 </div>
 

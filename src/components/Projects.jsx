@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import Typewriter from 'typewriter-effect';
 
 
 const Projects = () => {
@@ -19,42 +20,70 @@ const Projects = () => {
 
     return (
         <div>
-            <div className="py-16 sm:py-20"> {/* Adjusted padding for better mobile experience */}
-                <div className="w-11/12 sm:w-10/12 mx-auto px-4 sm:px-6 lg:px-8"> {/* Adjusted width & padding for responsiveness */}
-                    <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-center text-gray-800 mb-6 sm:mb-8 md:mb-10">My Projects</h2> {/* Dynamic heading size & spacing */}
+            <div className="py-3 md:py-7 lg:py-9">
+                <div className="w-11/12 sm:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-center text-gray-800 mb-6 sm:mb-8 md:mb-10">My Projects</h2>
 
-                    {/* Map through each project in the data */}
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6"> {/* Added extra column for larger screens */}
+
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                         {projects.map((project, index) => (
-                            <div key={index} className="card bg-base-100 w-full sm:w-80 md:w-full shadow-md hover:shadow-lg transition-shadow duration-300"> {/* Adjusted width & added hover effect */}
+                            <Link
+                                key={index}
+                                to={`/project-details/${project.project_name}`}
+                                className="
+        card bg-base-100 w-full sm:w-80 md:w-full shadow-md
+        transform hover:scale-105 hover:shadow-lg
+        transition duration-200 ease-out
+        cursor-pointer
+      "
+                            >
                                 {/* Image section */}
-                                <figure className="px-6 sm:px-8 pt-6 sm:pt-8"> {/* Adjusted padding for better spacing */}
+                                <figure className="px-6 sm:px-8 pt-6 sm:pt-8">
                                     <img
                                         src={project.project_image}
                                         alt={project.project_name}
                                         className="rounded-xl w-full h-48 sm:h-56 md:h-60 object-cover"
-
-                                    // Adjusted height for consistency
-
                                     />
                                 </figure>
 
-                                {/* Card body with title, description, and button */}
+                                {/* Card body */}
                                 <div className="card-body items-center text-center">
-                                    <h2 className="text-lg sm:text-xl font-semibold"> {/* Adjusted text size */}
+                                    <h2 className="text-lg sm:text-xl font-semibold">
                                         {project.project_name}
                                     </h2>
-                                    {/* <p className="text-gray-700 text-base">{project.brief_description}</p> */}
-                                    <div className="card-actions mt-4">
-                                        <Link to={`/project-details/${project.project_name}`}>
-                                            <button className="btn btn-primary">View More</button>
-                                        </Link>
-                                    </div>
+                                    {/* Removed the View More button */}
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
+
+
+                    <h3 className="
+    flex flex-wrap justify-center items-center 
+    text-lg     
+    md:text-2xl 
+    font-semibold 
+    mt-3 md:mt-6 
+    text-center
+  ">
+                        <span className="whitespace-nowrap text-[#2A1454]">
+                            <Typewriter
+                                options={{
+                                    strings: [
+                                        "More is coming...",
+                                    ],
+                                    autoStart: true,
+                                    loop: true,
+                                    delay: 90,
+                                    deleteSpeed: 10,
+                                }}
+                            />
+                        </span>
+                    </h3>
                 </div>
+
+
+
             </div>
 
         </div>

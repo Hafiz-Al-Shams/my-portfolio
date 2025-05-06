@@ -36,7 +36,8 @@ const Skills = () => {
                         <h3 className="text-xl sm:text-2xl font-semibold text-blue-500 mb-4">Frontend Development</h3> {/* Responsive text size */}
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6"> {/* Adjusted grid for better scaling */}
                             {frontendSkills.map(skill => (
-                                <div key={skill.name} className="bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-blue-200"> {/* Adjusted padding */}
+                                <div key={skill.name} className="transform hover:scale-110 hover:shadow-xl 
+      transition duration-200 ease-out bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-blue-200"> {/* Adjusted padding */}
                                     <p className="text-base sm:text-lg font-semibold text-gray-800">{skill.name}</p> {/* Adjusted font size */}
                                     {skill.name === 'React' && <FaReact size={40} className="mx-auto text-blue-600 mb-2" />}
                                     {skill.name === 'HTML' && <FaHtml5 size={40} className="mx-auto text-orange-600 mb-2" />}
@@ -53,7 +54,8 @@ const Skills = () => {
                         <h3 className="text-xl sm:text-2xl font-semibold text-green-500 mb-4">Backend Development</h3> {/* Responsive text size */}
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6"> {/* Adjusted grid for better scaling */}
                             {backendSkills.map(skill => (
-                                <div key={skill.name} className="bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-green-200"> {/* Adjusted padding */}
+                                <div key={skill.name} className="transform hover:scale-110 hover:shadow-xl 
+      transition duration-200 ease-out bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-green-200"> {/* Adjusted padding */}
                                     <p className="text-base sm:text-lg font-semibold text-gray-800">{skill.name}</p>
                                     {skill.name === 'Node.js' && <FaNodeJs size={40} className="mx-auto text-green-800 mb-2" />}
                                     {skill.name === 'Express' && <SiExpress size={40} className="mx-auto text-gray-600 mb-2" />}
@@ -69,7 +71,8 @@ const Skills = () => {
                         <h3 className="text-xl sm:text-2xl font-semibold text-amber-500 mb-4">Tools & Others</h3> {/* Responsive text size */}
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6"> {/* Adjusted grid for better scaling */}
                             {tools.map(skill => (
-                                <div key={skill.name} className="bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-yellow-200"> {/* Adjusted padding */}
+                                <div key={skill.name} className="transform hover:scale-110 hover:shadow-xl 
+      transition duration-200 ease-out bg-white p-3 sm:p-4 md:p-5 rounded-lg text-center shadow-lg border border-yellow-200"> {/* Adjusted padding */}
                                     <p className="text-base sm:text-lg font-semibold text-gray-800">{skill.name}</p>
                                     {skill.name === 'Git' && <FaGitAlt size={40} className="mx-auto text-gray-700 mb-2" />}
                                     {skill.name === 'Figma' && <FaFigma size={40} className="mx-auto text-gray-800 mb-2" />}

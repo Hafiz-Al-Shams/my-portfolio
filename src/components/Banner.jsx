@@ -6,8 +6,8 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24'>
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-10 md:pt-20">
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-5 md:pb-10 lg:pb-16'>
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-1 md:pt-8 lg:pt-24">
                 <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2>
                     <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3>
@@ -73,17 +73,40 @@ const Banner = () => {
                     />
                 </div>
             </div>
-            <h3 className="text-2xl sm:text-4xl md:text-5xl font-semibold mt-12 sm:mt-16 text-center md:text-left">
-                <Typewriter
-                    options={{
-                        strings: ["I code tomorrow's Web, today"],
-                        autoStart: true,
-                        loop: true,
-                        delay: 110,
-                        deleteSpeed: 25,
-                    }}
-                />
+
+            <h3 className="
+    flex flex-wrap items-center 
+    text-sm      
+    sm:text-2xl
+    md:text-4xl 
+    lg:text-5xl 
+    font-semibold 
+    mt-8 sm:mt-12 md:mt-16 
+    text-center md:text-left
+  ">
+                <span className="whitespace-nowrap mr-1 md:mr-1.5 lg:mr-2">
+                    i code
+                </span>
+                <span className="whitespace-nowrap text-[#5a0ea1]">
+                    <Typewriter
+                        options={{
+                            strings: [
+                                "tomorrow's Web, today",
+                                "scalable Digital architectures",
+                                "adaptive Ecosystems",
+                                "robust Web infrastructures",
+                            ],
+                            autoStart: true,
+                            loop: true,
+                            delay: 110,
+                            deleteSpeed: 25,
+                        }}
+                    />
+                </span>
             </h3>
+
+
+
         </div>
 
     );

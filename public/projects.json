@@ -1,7 +1,7 @@
 [
     {
         "project_name": "CureMedix - Medicine Selling E-commerce Website",
-        "project_image": "https://i.ibb.co.com/nN73gmx2/Screenshot-6645.png",
+        "project_image": "../src/assets/img-1.png",
         "main_technology_stack": [
             "React",
             "React Router",
@@ -28,7 +28,7 @@
     },
     {
         "project_name": "Elkano64 - Restaurant Management Website",
-        "project_image": "https://i.ibb.co.com/Z5G36gZ/Screenshot-6646.png",
+        "project_image": "../src/assets/img-2.png",
         "main_technology_stack": [
             "React",
             "React Router",
@@ -44,14 +44,14 @@
             "React Tooltip"
         ],
         "brief_description": "A restaurant management platform built with the MERN stack to streamline operations and enhance customer engagement. It simplifies order management, improves staff coordination, and strengthens the restaurant’s online presence.",
-        "live_project_link": "https://elkano64-0be36d.netlify.app/",
+        "live_project_link": "https://elkano64.netlify.app/",
         "github_repository_link": "https://github.com/Hafiz-Al-Shams/elkano64-client",
         "challenges_faced": "Implementing real-time food listing and ensuring seamless order management with proper database queries.",
         "potential_improvements": "Adding an AI-powered recommendation system for food suggestions and optimizing the UI for better mobile responsiveness."
     },
     {
         "project_name": "SportsSphere - Elite Sports Shop",
-        "project_image": "https://i.ibb.co.com/FShZVNs/Screenshot-6647.png",
+        "project_image": "../src/assets/img-3.png",
         "main_technology_stack": [
             "React",
             "React Router",

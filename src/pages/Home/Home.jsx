@@ -4,31 +4,76 @@ import ContactMe from "../../components/ContactMe";
 import Projects from "../../components/Projects";
 import Skills from "../../components/Skills";
 
+import { motion } from 'framer-motion';
+
+const sectionVariants = {
+    hidden: { opacity: 0, y: 30 },
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.4, ease: 'easeOut' },
+    },
+};
+
+
 
 const Home = () => {
     return (
-        <div>
-
-            <section id="banner">
+        <div className="space-y-5 md:space-y-6 lg:space-y-10 px-4 md:px-8 lg:px-16 pb-0.5 md:pb-4 lg:pb-7">
+            {/* Banner Section */}
+            <motion.section
+                id="banner"
+                variants={sectionVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.1 }}
+            >
                 <Banner />
-            </section>
+            </motion.section>
 
-            <section id="skills">
+            {/* Skills Section */}
+            <motion.section
+                id="skills"
+                variants={sectionVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.1 }}
+            >
                 <Skills />
-            </section>
+            </motion.section>
 
-            <section id="about">
+            {/* About Section */}
+            <motion.section
+                id="about"
+                variants={sectionVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.1 }}
+            >
                 <About />
-            </section>
+            </motion.section>
 
-            <section id="projects">
+            {/* Projects Section */}
+            <motion.section
+                id="projects"
+                variants={sectionVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.1 }}
+            >
                 <Projects />
-            </section>
+            </motion.section>
 
-            <section id="contact">
-                <ContactMe></ContactMe>
-            </section>
-
+            {/* Contact Section */}
+            <motion.section
+                id="contact"
+                variants={sectionVariants}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.1 }}
+            >
+                <ContactMe />
+            </motion.section>
         </div>
     );
 };
