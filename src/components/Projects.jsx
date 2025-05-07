@@ -52,6 +52,7 @@ const Projects = () => {
                                         {project.project_name}
                                     </h2>
                                     {/* Removed the View More button */}
+
                                 </div>
                             </Link>
                         ))}
@@ -60,8 +61,9 @@ const Projects = () => {
 
                     <h3 className="
     flex flex-wrap justify-center items-center 
-    text-lg     
+    text-xl     
     md:text-2xl 
+    lg:text-3xl 
     font-semibold 
     mt-3 md:mt-6 
     text-center

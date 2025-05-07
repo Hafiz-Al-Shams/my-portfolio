@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import logo from '../assets/favicon.png'
 
 
@@ -19,18 +18,15 @@ const NavBar = () => {
                             <li><a href="#about">About</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contact">Contact Me</a></li>
-                            <li className=''>
-                                <details>
-                                    <summary>Resume</summary>
-                                    <ul className="bg-base-100 rounded-t-none p-2">
-                                        <li><NavLink to="/">
-                                            View
-                                        </NavLink></li>
-                                        <li><NavLink to="/">
-                                            Download
-                                        </NavLink></li>
-                                    </ul>
-                                </details>
+                            <li>
+                                <a
+                                    href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className=""
+                                >
+                                    Resume
+                                </a>
                             </li>
                         </ul>
                     </div>

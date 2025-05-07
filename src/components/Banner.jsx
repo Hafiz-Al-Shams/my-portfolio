@@ -1,6 +1,5 @@
-import { FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import hafizImg from '../assets/hafiz.png'
-import { Link } from 'react-router-dom';
 import { FaXTwitter } from 'react-icons/fa6';
 import Typewriter from 'typewriter-effect';
 

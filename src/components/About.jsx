@@ -4,11 +4,11 @@
 const About = () => {
     return (
         <div>
-            <div className="pt-16 sm:pt-20 pb-16 sm:pb-20 bg-gray-900 text-white text-lg sm:text-xl"> {/* Adjusted text size & spacing */}
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> {/* Increased width & adjusted padding */}
+            <div className="pt-16 md:pt-20 pb-16 md:pb-20 bg-gray-900 text-white text-lg sm:text-xl">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                    <div className="w-full sm:w-3/4 md:w-2/3 lg:w-2/3"> {/* Responsive width scaling for different screens */}
-                        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-blue-400 mb-6 sm:mb-8 md:mb-10">About Me</h2> {/* Dynamic heading size */}
+                    <div className="w-full sm:w-3/4 md:w-2/3 lg:w-2/3">
+                        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-blue-400 mb-6 sm:mb-8 md:mb-10">About Me</h2>
 
                         {/* 1st block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
