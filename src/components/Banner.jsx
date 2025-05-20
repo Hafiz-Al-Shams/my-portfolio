@@ -14,7 +14,7 @@ const Banner = () => {
                     <div className="mt-5 sm:mt-7">
 
                         <a
-                            href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1LdxqzeA7pBkG1JkISULyDdmN_niQZ-IQ/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=""
