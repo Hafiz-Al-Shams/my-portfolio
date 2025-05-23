@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-1 md:pt-8 lg:pt-24">
                 <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2>
-                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Frontend Developer</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Junior Web Developer</h3>
 
                     <div className="mt-5 sm:mt-7">
 
