@@ -9,12 +9,12 @@ const Banner = () => {
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-1 md:pt-8 lg:pt-24">
                 <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2>
-                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Junior Web Developer</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Junior Frontend Developer</h3>
 
                     <div className="mt-5 sm:mt-7">
 
                         <a
-                            href="https://drive.google.com/file/d/1qDaPnfoo9PvK4LtkDC5k5brFYP0tVhF7/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1LdxqzeA7pBkG1JkISULyDdmN_niQZ-IQ/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=""
@@ -52,7 +52,7 @@ const Banner = () => {
                             <FaGithub />
                         </a>
                         <a
-                            href="https://x.com/shams_world625"
+                            href="https://x.com/hafiz_dev25"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="transition duration-150 ease-in-out transform hover:scale-150 hover:shadow-2xl hover:shadow-white"

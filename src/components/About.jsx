@@ -12,7 +12,7 @@ const About = () => {
 
                         {/* 1st block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
-                            👋 Hey, I’m <span className="text-blue-400 font-semibold">Hafiz</span>! I’m a passionate <strong>Junior Web Developer</strong> dedicated to crafting beautiful and efficient digital experiences.
+                            👋 Hey, I’m <span className="text-blue-400 font-semibold">Hafiz</span>! I’m a passionate <strong>Junior Frontend Developer</strong> dedicated to crafting beautiful and efficient digital experiences.
                             My journey into coding started in 2022 when I realized how powerful the web can be in connecting people and ideas.
                             Since then, I’ve been improving my skills in <strong>HTML, CSS, JavaScript, React, Node.js, and MongoDB</strong>, striving to build interactive and performance-driven web applications.
                         </p>
