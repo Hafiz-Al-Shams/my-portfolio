@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 
 
 const Projects = () => {
@@ -59,7 +59,7 @@ const Projects = () => {
                     </div>
 
 
-                    <h3 className="
+                    {/* <h3 className="
     flex flex-wrap justify-center items-center 
     text-sm     
     md:text-base 
@@ -81,7 +81,11 @@ const Projects = () => {
                                 }}
                             />
                         </span>
-                    </h3>
+
+
+                    </h3> */}
+
+
                 </div>
 
 
