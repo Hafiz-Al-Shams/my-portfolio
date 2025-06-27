@@ -12,22 +12,21 @@ const About = () => {
 
                         {/* 1st block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
-                            👋 Hey, I’m <span className="text-blue-400 font-semibold">Hafiz</span>! I’m a passionate <strong>Junior Frontend Developer</strong> dedicated to crafting beautiful and efficient digital experiences.
-                            My journey into coding started in 2022 when I realized how powerful the web can be in connecting people and ideas.
-                            Since then, I’ve been improving my skills in <strong>HTML, CSS, JavaScript, React, Node.js, and MongoDB</strong>, striving to build interactive and performance-driven web applications.
+                            👋 Hey there! I’m <span className="text-blue-400 font-semibold">Hafiz</span>, a passionate <strong>Frontend Developer</strong> dedicated to solving real‑world problems by crafting user‑focused digital products.
+                            My journey into coding began in 2023 when I realized the web’s power to connect people and ideas. Since then, I’ve been refining my skills in <strong>JavaScript, React.js, and the MERN stack (MongoDB, Express.js, React.js, Node.js)</strong>, along with other web and front-end technologies, to build interactive and performance-driven web applications.
                         </p>
                         <br />
 
                         {/* 2nd block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
-                            💡 I love working on <strong>responsive and user-friendly interfaces</strong>. The challenge of problem-solving and debugging excites me—it feels like solving a puzzle.
+                            💡 I love <strong>exploring emerging tech trends, and advancing as a frontend developer</strong>. The challenge of problem-solving and debugging excites me—it feels like solving a puzzle.
                             I also have a strong interest in <strong>backend development</strong>, ensuring that applications are both functional and scalable.
                         </p>
                         <br />
 
                         {/* 3rd block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
-                            🏀 When I’m not coding, you’ll find me <strong>reading self-improvement books, working out, or exploring new tech trends</strong>.
+                            🏀 Outside of coding, you’ll find me <strong>reading self-improvement books, working out, playing cricket or badminton</strong>.
                             I’m a huge fan of <span className="text-blue-400 font-semibold">Cristiano Ronaldo</span>, and I believe in never giving up mentality.
                         </p>
                         <br />
@@ -35,7 +34,7 @@ const About = () => {
                         {/* 4th block */}
                         <p className="text-base sm:text-lg text-gray-300 leading-normal sm:leading-relaxed"> {/* Adjusted text size & line height */}
                             🚀 My goal is to <strong>become a top-tier developer</strong>, continuously learning and refining my craft.
-                            My ultimate dream is to contribute to cutting-edge projects that impact millions worldwide.
+                            My ultimate dream is to contribute to <strong>cutting-edge projects that impact millions worldwide</strong>.
                         </p>
                     </div>
                 </div>

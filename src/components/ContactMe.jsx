@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import Swal from "sweetalert2";
 
 
@@ -63,25 +63,21 @@ const ContactMe = () => {
 
     return (
         <div className="pb-7">
-            <div className="transform hover:scale-105 hover:shadow-xl 
-      transition duration-200 ease-out w-11/12 sm:w-10/12 md:max-w-3xl mx-auto px-6 sm:px-10 py-8 bg-white shadow-lg rounded-lg mt-6 sm:mt-10">
+            <div className="hover:shadow-xl 
+      transition duration-200 ease-out w-11/12 md:max-w-3xl lg:max-w-5xl mx-auto px-6 sm:px-10 py-8 bg-white shadow-lg rounded-lg mt-6 sm:mt-10">
                 <h1 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4">
                     Contact Me
                 </h1>
 
                 {/* Contact Info */}
                 <div className="mb-6">
-                    <p className="flex items-center gap-3 text-[10px] md:text-xl">
-                        <FaEnvelope className="text-blue-500" />
-                        Email: <a className="text-blue-600 underline text-[10px] md:text-lg ">hafizalshams1917@gmail.com</a>
+                    <p className="flex flex-wrap items-center gap-3 text-sm md:text-xl">
+                        <FaEnvelope className="text-blue-500 text-lg md:text-xl" />
+                        Email: <a className="text-blue-600 underline text-sm md:text-lg">hafizalshams25@gmail.com</a>
                     </p>
-                    {/* <p className="flex items-center gap-3 text-base sm:text-lg mt-2">
-                        <FaPhone className="text-green-500" />
-                        Phone: <a className="text-green-600 underline">+1234567890</a>
-                    </p> */}
-                    <p className="flex items-center gap-3 text-[10px] md:text-xl mt-2">
-                        <FaWhatsapp className="text-green-600" />
-                        WhatsApp: <a target="_blank" rel="noopener noreferrer" className="text-green-700 underline text-[10px] md:text-lg">+8801581198040</a>
+                    <p className="flex flex-wrap items-center gap-3 text-sm md:text-xl mt-2">
+                        <FaWhatsapp className="text-green-600 text-lg md:text-xl" />
+                        WhatsApp: <a target="_blank" rel="noopener noreferrer" className="text-green-700 underline text-sm md:text-lg">+8801581198040</a>
                     </p>
                 </div>
 
@@ -125,7 +121,7 @@ const ContactMe = () => {
                     ></textarea>
                     <button
                         type="submit"
-                        className="w-full btn btn-primary py-3 text-lg"
+                        className="w-full btn btn-primary py-3"
                     >
                         Send Message
                     </button>

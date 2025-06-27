@@ -8,20 +8,20 @@ const Banner = () => {
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-5 md:pb-10 lg:pb-16'>
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-1 md:pt-8 lg:pt-24">
                 <div className="pt-6 md:pt-10 space-y-4 text-center md:text-left">
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium">Hafiz Al Shams</h2>
-                    <h3 className="text-xl sm:text-2xl md:text-3xl text-gray-600 font-semibold">Junior Frontend Developer</h3>
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium">Hafiz Al Shams</h2>
+                    <h3 className="text-xl md:text-2xl lg:text-3xl text-gray-600 font-semibold">Frontend Developer</h3>
 
                     <div className="mt-5 sm:mt-7">
 
                         <a
-                            href="https://drive.google.com/file/d/1LdxqzeA7pBkG1JkISULyDdmN_niQZ-IQ/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1xQ_dDvBEqNZUyDHK3TqXP6nyfeZYOEgS/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=""
                         >
                             <button
                                 className="
-    btn md:btn-lg
+    btn lg:btn-lg
     text-white         
     
     bg-[#5a0ea1]
@@ -74,26 +74,23 @@ const Banner = () => {
             </div>
 
             <h3 className="
-    flex flex-wrap items-center 
-    text-sm      
-    sm:text-2xl
-    md:text-4xl 
+    flex flex-wrap items-center justify-center
+    text-xl
+    md:text-3xl md:justify-start
     lg:text-5xl 
     font-semibold 
-    mt-8 sm:mt-12 md:mt-16 
-    text-center md:text-left
+    mt-8 sm:mt-12 md:mt-16
   ">
                 <span className="whitespace-nowrap mr-1 md:mr-1.5 lg:mr-2">
                     i code
                 </span>
-                <span className="whitespace-nowrap text-[#5a0ea1]">
+                <span className="md:whitespace-nowrap text-[#5a0ea1]">
                     <Typewriter
                         options={{
                             strings: [
                                 "tomorrow's Web, today",
-                                "scalable Digital architectures",
-                                "adaptive Ecosystems",
-                                "robust Web infrastructures",
+                                "user-centric designs",
+                                "Simple Site Spark",
                             ],
                             autoStart: true,
                             loop: true,

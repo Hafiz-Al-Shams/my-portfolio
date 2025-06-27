@@ -20,7 +20,7 @@ const NavBar = () => {
                             <li><a href="#contact">Contact Me</a></li>
                             <li>
                                 <a
-                                    href="https://drive.google.com/file/d/18Alhhb5l_mZaltfeOsO8Jisd2FYd52j8/view?usp=drive_link"
+                                    href="https://drive.google.com/file/d/1xQ_dDvBEqNZUyDHK3TqXP6nyfeZYOEgS/view?usp=drive_link"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className=""
@@ -34,7 +34,7 @@ const NavBar = () => {
                         <div className="">
                             <img src={logo} alt="" className='w-7' />
                         </div>
-                        <h5 className="text-xl font-medium"><a href="#banner">hafiz.codes</a></h5>
+                        <h5 className="md:text-xl font-medium"><a href="#banner">hafiz.codes</a></h5>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -51,7 +51,7 @@ const NavBar = () => {
                         <li><a href="#contact">Contact Me</a></li>
                         <li>
                             <a
-                                href="https://drive.google.com/file/d/1LdxqzeA7pBkG1JkISULyDdmN_niQZ-IQ/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/1xQ_dDvBEqNZUyDHK3TqXP6nyfeZYOEgS/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=""
