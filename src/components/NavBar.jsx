@@ -20,7 +20,7 @@ const NavBar = () => {
                             <li><a href="#contact">Contact Me</a></li>
                             <li>
                                 <a
-                                    href="https://drive.google.com/file/d/1xQ_dDvBEqNZUyDHK3TqXP6nyfeZYOEgS/view?usp=drive_link"
+                                    href="https://drive.google.com/file/d/10-VzwgWyGrghEvWcEBTRSPHxoRyZ0fT3/view?usp=drive_link"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className=""
@@ -51,7 +51,7 @@ const NavBar = () => {
                         <li><a href="#contact">Contact Me</a></li>
                         <li>
                             <a
-                                href="https://drive.google.com/file/d/1xQ_dDvBEqNZUyDHK3TqXP6nyfeZYOEgS/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/10-VzwgWyGrghEvWcEBTRSPHxoRyZ0fT3/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=""
