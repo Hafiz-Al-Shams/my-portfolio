@@ -68,7 +68,7 @@ const Skills = () => {
 
                     {/* Tools */}
                     <div className="mb-10 sm:mb-12">
-                        <h3 className="text-xl sm:text-2xl font-semibold text-amber-500 mb-4">Tools & Others</h3> {/* Responsive text size */}
+                        <h3 className="text-xl sm:text-2xl font-semibold text-yellow-800/80 mb-4">Tools & Others</h3> {/* Responsive text size */}
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6"> {/* Adjusted grid for better scaling */}
                             {tools.map(skill => (
                                 <div key={skill.name} className="transform hover:scale-110 hover:shadow-xl 
