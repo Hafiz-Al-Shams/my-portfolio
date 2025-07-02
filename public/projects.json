@@ -23,8 +23,8 @@
         "brief_description": "A modern pharmacy e-commerce platform with a user-friendly UI, secure authentication, and seamless shopping experience. Features include category-based navigation, a fully functional cart, and Stripe-powered checkout.",
         "live_project_link": "https://cure-medix-by-hafiz-al-shams1917.netlify.app/",
         "github_repository_link": "https://github.com/Hafiz-Al-Shams/CureMedix-client",
-        "challenges_faced": "Implementing secure authentication with Firebase and integrating Stripe for seamless payment processing.",
-        "potential_improvements": "Enhancing the admin dashboard with more analytics and adding AI-based medicine recommendations."
+        "challenges_faced": "Faced challenges in implementing secure, role‑based authentication, ensuring robust user/seller or Admin data persistence on the server, integrating Stripe for payment processing, and developing the banner advertisement workflow.",
+        "potential_improvements": "Enhancing the admin dashboard and seller dashboard with more analytics and adding AI-based medicine recommendations."
     },
     {
         "project_name": "Elkano64 - Restaurant Management Website",
@@ -73,7 +73,7 @@
         ],
         "brief_description": "Giftify is a gift-sending e-commerce website- launching soon. It lets users send digital gifts, like e-gift cards and animations instantly by email. Users can also order physical gifts, such as custom floral arrangements and themed gift bundles, to be delivered to their loved ones' doorstep with a personalized message. Built with MERN, Giftify runs smoothly across all devices and keeps payments safe. Whether it’s for Eid, Valentine’s Day, Anniversary, birthdays, or any occasion, Giftify makes sending gifts simple and fast.",
         "live_project_link": "https://giftify-pro.netlify.app/",
-        "github_repository_link": "https://github.com/Md-Siyam94/giftify-server/tree/hafiz",
+        "github_repository_link": "https://github.com/Md-Siyam94/giftify-client/tree/hafiz",
         "challenges_faced": "Building robust auth with ‘Forgot Password’ & lockout after failed logins; optimizing gift selection and checkout performance for seamless UX.",
         "potential_improvements": "Adding user reviews with real-time feedback, building seller & delivery dashboards, implementing real-time delivery tracking, creating an animated gift customization editor, and enhancing analytics dashboards for users & admins."
     }

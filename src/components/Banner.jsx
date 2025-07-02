@@ -14,7 +14,7 @@ const Banner = () => {
                     <div className="mt-5 sm:mt-7">
 
                         <a
-                            href="https://drive.google.com/file/d/10-VzwgWyGrghEvWcEBTRSPHxoRyZ0fT3/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1JCMZ-Pn81dskty1UP4Rm4y3x1ybysI_s/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=""
@@ -94,7 +94,7 @@ const Banner = () => {
                             ],
                             autoStart: true,
                             loop: true,
-                            delay: 110,
+                            delay: 25,
                             deleteSpeed: 25,
                         }}
                     />
