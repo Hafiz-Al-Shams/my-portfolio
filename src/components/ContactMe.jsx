@@ -73,7 +73,7 @@ const ContactMe = () => {
                 <div className="mb-6">
                     <p className="flex flex-wrap items-center gap-3 text-sm md:text-xl">
                         <FaEnvelope className="text-blue-500 text-lg md:text-xl" />
-                        Email: <a className="text-blue-600 underline text-sm md:text-lg">hafizalshams25@gmail.com</a>
+                        Email: <a className="text-blue-600 underline text-sm md:text-lg">hafizalshams1917@gmail.com</a>
                     </p>
                     <p className="flex flex-wrap items-center gap-3 text-sm md:text-xl mt-2">
                         <FaWhatsapp className="text-green-600 text-lg md:text-xl" />

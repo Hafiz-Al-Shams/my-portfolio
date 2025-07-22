@@ -1,5 +1,6 @@
-import { FaGithub } from 'react-icons/fa';
-import hafizImg from '../assets/hafiz.png'
+import { FaGithub, FaRegFileAlt } from 'react-icons/fa';
+// import hafizImg from '../assets/hafiz.png'
+import hafizImg from '../assets/hafiz.webp'
 import { FaXTwitter } from 'react-icons/fa6';
 import Typewriter from 'typewriter-effect';
 
@@ -14,7 +15,7 @@ const Banner = () => {
                     <div className="mt-5 sm:mt-7">
 
                         <a
-                            href="https://drive.google.com/file/d/1JCMZ-Pn81dskty1UP4Rm4y3x1ybysI_s/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1H1vpstM0yB-Ol0ztJ8iU-uqfs5n346XA/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=""
@@ -23,19 +24,20 @@ const Banner = () => {
                                 className="
     btn lg:btn-lg
     text-white         
-    
+    font-light
     bg-[#5a0ea1]
     border-0                            
     transition duration-150 ease-in-out 
     transform                           
-    hover:scale-125                    
+    hover:scale-100                    
     hover:shadow-2xl                     
-    hover:shadow-white
+    hover:drop-shadow-xs
     hover:bg-[#470c7e]                 
     hover:text-white
   "
                             >
-                                Resume
+                                <FaRegFileAlt />
+                                View Resume
                             </button>
 
                         </a>
@@ -47,7 +49,7 @@ const Banner = () => {
                             href="https://github.com/Hafiz-Al-Shams"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="transition duration-150 ease-in-out transform hover:scale-150 hover:shadow-2xl hover:shadow-white"
+                            className="transition duration-150 ease-in-out transform hover:scale-100 hover:shadow-2xl hover:drop-shadow-xs"
                         >
                             <FaGithub />
                         </a>
@@ -55,7 +57,7 @@ const Banner = () => {
                             href="https://x.com/hafiz_dev25"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="transition duration-150 ease-in-out transform hover:scale-150 hover:shadow-2xl hover:shadow-white"
+                            className="transition duration-150 ease-in-out transform hover:scale-100 hover:shadow-2xl hover:drop-shadow-xs"
                         >
                             <FaXTwitter />
                         </a>

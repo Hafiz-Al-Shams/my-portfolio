@@ -1,7 +1,7 @@
 [
     {
         "project_name": "CureMedix - Medicine Selling E-commerce Website",
-        "project_image": "https://i.ibb.co.com/yFHM95cz/img-1.png",
+        "project_image": "/curemedix.png",
         "main_technology_stack": [
             "React",
             "React Router",
@@ -28,7 +28,7 @@
     },
     {
         "project_name": "Elkano64 - Restaurant Management Website",
-        "project_image": "https://i.ibb.co.com/pBKYh0g5/img-2.png",
+        "project_image": "/Elkano64.png",
         "main_technology_stack": [
             "React",
             "React Router",
@@ -51,7 +51,7 @@
     },
     {
         "project_name": "Giftify - Virtual & Physical Gift Store | Team Project",
-        "project_image": "https://i.ibb.co/PZV8gGqr/Giftify.png",
+        "project_image": "/Giftify.png",
         "main_technology_stack": [
             "React",
             "React Router",
